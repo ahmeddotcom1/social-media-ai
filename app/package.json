@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
+    "@upstash/redis": "^1.38.2",
+    "@vercel/blob": "^2.6.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "csv-parse": "^6.1.0",

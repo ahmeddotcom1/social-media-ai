@@ -2,6 +2,7 @@ import { runPipeline } from "@/lib/pipeline";
 import type { PipelineParams } from "@/lib/types";
 
 export const maxDuration = 300;
+export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
   const params: PipelineParams = await request.json();

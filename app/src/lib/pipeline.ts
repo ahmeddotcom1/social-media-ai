@@ -1,5 +1,4 @@
-import { promises as fs } from "fs";
-import path from "path";
+import { put } from "@vercel/blob";
 import { v4 as uuid } from "uuid";
 import { readConfigs, readCreators, readVideos, writeVideos } from "./csv";
 import { scrapeReels } from "./apify";
@@ -8,12 +7,12 @@ import { generateNewConcepts } from "./claude";
 import type { PipelineParams, PipelineProgress, Video, ActiveTask } from "./types";
 
 const VIDEO_CONCURRENCY = 3;
-const THUMBNAILS_DIR = path.join(process.cwd(), "public", "thumbnails");
 
 // Instagram/Facebook CDN thumbnail URLs are signed and expire (the `oe=` param),
 // and their edge-node hostnames aren't reliably resolvable outside the network
 // that issued them — so the raw URL can't be hotlinked later. Download the bytes
-// now, while the URL is still fresh, and serve them locally instead.
+// now, while the URL is still fresh, and store them in Vercel Blob (works both
+// locally and on Vercel's read-only serverless filesystem) instead.
 async function downloadThumbnail(url: string, id: string): Promise<string> {
   if (!url) return "";
   try {
@@ -22,12 +21,14 @@ async function downloadThumbnail(url: string, id: string): Promise<string> {
     });
     if (!response.ok) return "";
 
-    await fs.mkdir(THUMBNAILS_DIR, { recursive: true });
     const ext = url.match(/\.(jpe?g|png|webp)(?:\?|$)/i)?.[1]?.toLowerCase() || "jpg";
-    const filename = `${id}.${ext}`;
     const buffer = Buffer.from(await response.arrayBuffer());
-    await fs.writeFile(path.join(THUMBNAILS_DIR, filename), buffer);
-    return `/thumbnails/${filename}`;
+    const blob = await put(`thumbnails/${id}.${ext}`, buffer, {
+      access: "public",
+      allowOverwrite: true,
+      addRandomSuffix: false,
+    });
+    return blob.url;
   } catch {
     return "";
   }
@@ -102,14 +103,14 @@ export async function runPipeline(
 
   try {
     // Load config
-    const configs = readConfigs();
+    const configs = await readConfigs();
     const config = configs.find((c) => c.configName === params.configName);
     if (!config) throw new Error(`Config "${params.configName}" not found`);
 
     log(`Loaded config: ${config.configName}`);
 
     // Load creators
-    const allCreators = readCreators();
+    const allCreators = await readCreators();
     const creators = allCreators.filter((c) => c.category === config.creatorsCategory);
     if (creators.length === 0) throw new Error(`No creators found for category "${config.creatorsCategory}"`);
 
@@ -249,8 +250,8 @@ export async function runPipeline(
 
     // Write all new videos at once
     if (newVideos.length > 0) {
-      const existing = readVideos();
-      writeVideos([...existing, ...newVideos]);
+      const existing = await readVideos();
+      await writeVideos([...existing, ...newVideos]);
     }
 
     progress.phase = "done";

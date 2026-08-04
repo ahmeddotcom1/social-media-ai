@@ -1,48 +1,48 @@
 import { parse } from "csv-parse/sync";
 import { stringify } from "csv-stringify/sync";
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
-import path from "path";
+import { Redis } from "@upstash/redis";
 import type { Config, Creator, Video } from "./types";
 
-const DATA_DIR = path.join(process.cwd(), "..", "data");
+// The CSV "database" files (configs/creators/videos) live in Redis, not local
+// disk or Vercel Blob — this data is overwritten on every star toggle, config
+// edit, and pipeline run, and Blob's public-storage caching (up to 60s to
+// reflect an overwrite) made reads lag behind writes. Redis reads/writes are
+// immediately consistent, which this data needs. Thumbnails stay in Blob
+// (pipeline.ts) since those are write-once and benefit from CDN caching.
+const redis = new Redis({
+  url: process.env.KV_REST_API_URL!,
+  token: process.env.KV_REST_API_TOKEN!,
+});
 
-function ensureDataDir() {
-  if (!existsSync(DATA_DIR)) {
-    mkdirSync(DATA_DIR, { recursive: true });
-  }
-}
-
-function readCsv<T>(filename: string): T[] {
-  const filepath = path.join(DATA_DIR, filename);
-  if (!existsSync(filepath)) return [];
-  const content = readFileSync(filepath, "utf-8");
-  if (!content.trim()) return [];
+async function readCsv<T>(key: string): Promise<T[]> {
+  const content = await redis.get<string>(key);
+  if (!content || !content.trim()) return [];
   return parse(content, { columns: true, skip_empty_lines: true, relax_column_count: true }) as T[];
 }
 
-function writeCsv(filename: string, data: Record<string, unknown>[], columns: string[]) {
-  ensureDataDir();
-  const filepath = path.join(DATA_DIR, filename);
-  const output = stringify(data, { header: true, columns });
-  writeFileSync(filepath, output, "utf-8");
+async function writeCsv(key: string, data: Record<string, unknown>[], columns: string[]) {
+  // csv-stringify renders JS booleans as "1"/"" by default, not "true"/"false" —
+  // cast explicitly so the read side's `=== "true"` check actually matches.
+  const output = stringify(data, { header: true, columns, cast: { boolean: (v) => (v ? "true" : "false") } });
+  await redis.set(key, output);
 }
 
 // Configs
 const CONFIG_COLUMNS = ["id", "configName", "creatorsCategory", "analysisInstruction", "newConceptsInstruction"];
 
-export function readConfigs(): Config[] {
-  return readCsv<Config>("configs.csv");
+export async function readConfigs(): Promise<Config[]> {
+  return readCsv<Config>("data:configs.csv");
 }
 
-export function writeConfigs(configs: Config[]) {
-  writeCsv("configs.csv", configs as unknown as Record<string, unknown>[], CONFIG_COLUMNS);
+export async function writeConfigs(configs: Config[]) {
+  await writeCsv("data:configs.csv", configs as unknown as Record<string, unknown>[], CONFIG_COLUMNS);
 }
 
 // Creators
 const CREATOR_COLUMNS = ["id", "username", "category", "profilePicUrl", "followers", "reelsCount30d", "avgViews30d", "lastScrapedAt"];
 
-export function readCreators(): Creator[] {
-  const raw = readCsv<Record<string, string>>("creators.csv");
+export async function readCreators(): Promise<Creator[]> {
+  const raw = await readCsv<Record<string, string>>("data:creators.csv");
   return raw.map((r) => ({
     id: r.id || "",
     username: r.username || "",
@@ -55,15 +55,15 @@ export function readCreators(): Creator[] {
   }));
 }
 
-export function writeCreators(creators: Creator[]) {
-  writeCsv("creators.csv", creators as unknown as Record<string, unknown>[], CREATOR_COLUMNS);
+export async function writeCreators(creators: Creator[]) {
+  await writeCsv("data:creators.csv", creators as unknown as Record<string, unknown>[], CREATOR_COLUMNS);
 }
 
 // Videos
 const VIDEO_COLUMNS = ["id", "link", "thumbnail", "creator", "views", "likes", "comments", "analysis", "newConcepts", "datePosted", "dateAdded", "configName", "starred"];
 
-export function readVideos(): Video[] {
-  const raw = readCsv<Record<string, string>>("videos.csv");
+export async function readVideos(): Promise<Video[]> {
+  const raw = await readCsv<Record<string, string>>("data:videos.csv");
   return raw.map((r) => ({
     id: r.id || "",
     link: r.link || r.Link || "",
@@ -81,12 +81,12 @@ export function readVideos(): Video[] {
   }));
 }
 
-export function writeVideos(videos: Video[]) {
-  writeCsv("videos.csv", videos as unknown as Record<string, unknown>[], VIDEO_COLUMNS);
+export async function writeVideos(videos: Video[]) {
+  await writeCsv("data:videos.csv", videos as unknown as Record<string, unknown>[], VIDEO_COLUMNS);
 }
 
-export function appendVideo(video: Video) {
-  const videos = readVideos();
+export async function appendVideo(video: Video) {
+  const videos = await readVideos();
   videos.push(video);
-  writeVideos(videos);
+  await writeVideos(videos);
 }

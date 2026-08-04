@@ -13,7 +13,31 @@
       "Bash(npx tsc *)",
       "Bash(powershell -NoProfile -Command \"Get-CimInstance Win32_Process -Filter \\\\\"name='node.exe'\\\\\" | Select-Object ProcessId, CreationDate, CommandLine | Format-Table -AutoSize\")",
       "PowerShell(Get-CimInstance *)",
-      "Bash(python3 -c ' *1)"
+      "Bash(python3 -c ' *1)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(npx tsx *)",
+      "PowerShell(try { Get-Process node -ErrorAction Stop | ForEach-Object { Stop-Process -Id $_.Id -Force } } catch {}; Start-Sleep -Seconds 1; try { Get-Process node -ErrorAction Stop | Select-Object Id } catch { Write-Output \"no node processes running\" })",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000 --max-time 2)",
+      "Bash(curl -s http://localhost:3000/api/configs --max-time 15)",
+      "Bash(curl -s http://localhost:3000/api/videos --max-time 15)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d\\), 'videos'\\); print\\('first thumbnail:', d[0]['thumbnail'] if d else 'none'\\)\")",
+      "Bash(curl -s -X PATCH http://localhost:3000/api/videos -H 'Content-Type: application/json' -d '{\"id\":\"34e34c76-e693-48c6-af4d-bf23b5aaf3cf\",\"starred\":false}' --max-time 15)",
+      "Bash(python3 -c \"import json,sys; print\\('PATCH response starred:', json.load\\(sys.stdin\\)['starred']\\)\")",
+      "Bash(curl -s -X PATCH http://localhost:3000/api/videos -H 'Content-Type: application/json' -d '{\"id\":\"34e34c76-e693-48c6-af4d-bf23b5aaf3cf\",\"starred\":true}' --max-time 15)",
+      "Bash(node blob_test.mjs)",
+      "Bash(node blob_check.mjs)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -X PATCH http://localhost:3000/api/videos -H 'Content-Type: application/json' -d '{\"id\":\"34e34c76-e693-48c6-af4d-bf23b5aaf3cf\",\"starred\":true}' --max-time 15 -o /dev/null)",
+      "WebFetch(domain:vercel.com)",
+      "WebFetch(domain:upstash.com)",
+      "Bash(npm install *)",
+      "Bash(git add *)"
     ]
   }
 }
