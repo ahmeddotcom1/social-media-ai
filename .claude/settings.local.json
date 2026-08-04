@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -o /tmp/test2.bin -w \"Direct external test \\(example.com\\): %{http_code}\\\\n\" https://www.google.com --max-time 8)",
+      "Bash(python3 -c \"import urllib.parse; print\\(urllib.parse.quote\\('https://www.google.com/favicon.ico', safe=''\\)\\)\")",
+      "Bash(curl -s -o /tmp/test3.bin -w 'Via proxy \\(google favicon\\): %{http_code}, size=%{size_download}\\\\n' http://localhost:3000/api/proxy-image?url=__TRACKED_VAR__ --max-time 10)",
+      "Bash(node /tmp/test_fetch.mjs \"https://scontent.cdninstagram.com\")",
+      "Bash(node -e \"require\\('dns'\\).resolve4\\('fbcdn.net', \\(e,a\\)=>console.log\\(e?e.message:a\\)\\)\")",
+      "Bash(node -e \"require\\('dns'\\).resolve4\\('cdninstagram.com', \\(e,a\\)=>console.log\\(e?e.message:a\\)\\)\")",
+      "Bash(node -e \"require\\('dns'\\).resolve4\\('www.instagram.com', \\(e,a\\)=>console.log\\(e?e.message:a\\)\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(powershell -NoProfile -Command \"Get-CimInstance Win32_Process -Filter \\\\\"name='node.exe'\\\\\" | Select-Object ProcessId, CreationDate, CommandLine | Format-Table -AutoSize\")",
+      "PowerShell(Get-CimInstance *)",
+      "Bash(python3 -c ' *1)"
+    ]
+  }
+}

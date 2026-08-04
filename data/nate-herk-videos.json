@@ -1,0 +1,2610 @@
+[{
+  "id": "BlNJFa3Btm8",
+  "title": "Claude Code Finally Works While You Sleep",
+  "duration": "9:44",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "46 minutes ago",
+  "url": "https://www.youtube.com/watch?v=BlNJFa3Btm8",
+  "viewCount": 1542,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/BlNJFa3Btm8/hqdefault_custom_2.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLC--p8vmaf3YLORw5JtTjnO5tZ87Q",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 0,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "NDnv16PY2XQ",
+  "title": "Cursor Automations Clearly Explained (worth learning?)",
+  "duration": "9:13",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "9 hours ago",
+  "url": "https://www.youtube.com/watch?v=NDnv16PY2XQ",
+  "viewCount": 3206,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/NDnv16PY2XQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCcBTNZyNNoavgbhNXdN9ck2rubRA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 1,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "RAZVk5NPNtE",
+  "title": "Claude Code Skills Just Got Even Better",
+  "duration": "16:15",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 day ago",
+  "url": "https://www.youtube.com/watch?v=RAZVk5NPNtE",
+  "viewCount": 92486,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/RAZVk5NPNtE/hqdefault_custom_2.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBImKhUVK5299rjtQtA5vXIufhAaQ",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 2,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "mi4hcipESKQ",
+  "title": "Turn Claude Code Into Your Executive Assistant in 27 Mins",
+  "duration": "27:14",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 day ago",
+  "url": "https://www.youtube.com/watch?v=mi4hcipESKQ",
+  "viewCount": 36520,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/mi4hcipESKQ/hqdefault_custom_3.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCyKZcLH5EknCyJwQ0680Go8PMV7Q",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 3,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "q0TgUtj6vIs",
+  "title": "The NEW Nano Banana 2 + Claude Code = $10k Websites",
+  "duration": "20:15",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "3 days ago",
+  "url": "https://www.youtube.com/watch?v=q0TgUtj6vIs",
+  "viewCount": 75959,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/q0TgUtj6vIs/hqdefault_custom_3.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCqxcOMziFMPPlrZ7E4jw1DgYhcOw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 4,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "iTKkoGd3YcM",
+  "title": "Antigravity + Nano Banana 2 is Insane (NEW Skill)",
+  "duration": "14:33",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "7 days ago",
+  "url": "https://www.youtube.com/watch?v=iTKkoGd3YcM",
+  "viewCount": 74202,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/iTKkoGd3YcM/hqdefault_custom_1.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCcP6A5MJDBeYNr9fVB54sSOeTcUw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 5,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "zKBPwDpBfhs",
+  "title": "Master 95% of Claude Code Skills in 28 Minutes",
+  "duration": "27:19",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "8 days ago",
+  "url": "https://www.youtube.com/watch?v=zKBPwDpBfhs",
+  "viewCount": 76653,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/zKBPwDpBfhs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB-DKFBP-0ikzOZcUyDsJhTWsYPtA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 6,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "EqhKw0Oro_k",
+  "title": "Claude Code Just Added What Everyone Wanted (Remote Control)",
+  "duration": "8:02",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "9 days ago",
+  "url": "https://www.youtube.com/watch?v=EqhKw0Oro_k",
+  "viewCount": 85657,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/EqhKw0Oro_k/hqdefault_custom_1.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBKycO1qH36hKvXNgcEPg4gvbkFcA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 7,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "62Rfe1w9NBc",
+  "title": "I Can Actually Watch My AI Agents Work Now",
+  "duration": "11:46",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "10 days ago",
+  "url": "https://www.youtube.com/watch?v=62Rfe1w9NBc",
+  "viewCount": 63694,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/62Rfe1w9NBc/hqdefault_custom_1.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAigU7MEpQTzu8pE56s5JMmTddVLA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 8,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "tDGiWn0flK8",
+  "title": "From Zero to Your First Agentic AI Workflow in 26 Minutes (Claude Code)",
+  "duration": "26:23",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "11 days ago",
+  "url": "https://www.youtube.com/watch?v=tDGiWn0flK8",
+  "viewCount": 60297,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/tDGiWn0flK8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDNEiDgqgYIFhcUQ4hXou2CJtTlLw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 9,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "UGIZnh6HNLc",
+  "title": "Deploy Your Claude Code Agents in Minutes (trigger.dev)",
+  "duration": "20:57",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "2 weeks ago",
+  "url": "https://www.youtube.com/watch?v=UGIZnh6HNLc",
+  "viewCount": 37845,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/UGIZnh6HNLc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCOeYjtcQ5XN1qAy517AFLgxmEmhw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 10,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "86HM0RUWhCk",
+  "title": "Building Beautiful Websites with Claude Code Is Too Easy",
+  "duration": "27:51",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "2 weeks ago",
+  "url": "https://www.youtube.com/watch?v=86HM0RUWhCk",
+  "viewCount": 139653,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/86HM0RUWhCk/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDaBlZRoH9goEaeQ6SpUa1mB84byw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 11,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "_rZAR-s4KIo",
+  "title": "How to Sign AI Workflow Clients (With 0 Followers)",
+  "duration": "14:28",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "2 weeks ago",
+  "url": "https://www.youtube.com/watch?v=_rZAR-s4KIo",
+  "viewCount": 19928,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/_rZAR-s4KIo/hqdefault_custom_1.jpg?sqp=CIj5rs0G-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDYHK8p6aeAGeKbsNg2hM9fw_1qgw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 12,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "XB2xmX3USUI",
+  "title": "How a College Student Made $500k with Cold Email (Exact Framework)",
+  "duration": "36:41",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "2 weeks ago",
+  "url": "https://www.youtube.com/watch?v=XB2xmX3USUI",
+  "viewCount": 20970,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/XB2xmX3USUI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLARXG-GSvCIXWz6Hi76QpzHFbxWjQ",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 13,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "4efAzBiTeVo",
+  "title": "Turn Any Website Into LLM Ready Data INSTANTLY",
+  "duration": "11:24",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "3 weeks ago",
+  "url": "https://www.youtube.com/watch?v=4efAzBiTeVo",
+  "viewCount": 38568,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/4efAzBiTeVo/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCLXQoIpa1qBFDr30f_nK03iNMOJA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 14,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "3GAxd90fEE4",
+  "title": "How I’d Teach a 10 Year Old to Build Agentic Workflows (Claude Code)",
+  "duration": "28:24",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "3 weeks ago",
+  "url": "https://www.youtube.com/watch?v=3GAxd90fEE4",
+  "viewCount": 105954,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/3GAxd90fEE4/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB4yhqKLUipjbaL-ERwf_dXfmQg6w",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 15,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "c2C_SbZk6iI",
+  "title": "How to Sign Your First AI Automation Client in 7 days (With Proof)",
+  "duration": "20:55",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=c2C_SbZk6iI",
+  "viewCount": 28027,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/c2C_SbZk6iI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB37VZnHBIgVJb-JVY3p53D7v6jHA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 16,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "wb4uDdsFh6o",
+  "title": "Is n8n Dead?",
+  "duration": "4:45",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=wb4uDdsFh6o",
+  "viewCount": 54094,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/wb4uDdsFh6o/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDU0jtxQDZYJCZUldzsGhcJXtaW3A",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 17,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "rlJovzVhlIo",
+  "title": "I Turned Clawdbot Into the Ultimate Personal Assistant",
+  "duration": "25:38",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=rlJovzVhlIo",
+  "viewCount": 75044,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/rlJovzVhlIo/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCts13Lb-Q-1H81GvyXfIJaNVjhcw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 18,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "CBNbcbMs_Lc",
+  "title": "100 Hours Testing Clawdbot vs Claude Code (honest results)",
+  "duration": "22:47",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=CBNbcbMs_Lc",
+  "viewCount": 235099,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/CBNbcbMs_Lc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAOUf-syB4e6-TSo4IEjGo0mFIBaA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 19,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "BhjK2Gr0Ryc",
+  "title": "Set Up Clawdbot on a VPS in Minutes (no mac mini)",
+  "duration": "13:12",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=BhjK2Gr0Ryc",
+  "viewCount": 120516,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/BhjK2Gr0Ryc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBX9m1-tLqgWuAb24lzLWVPb-3ytA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 20,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "AO5aW01DKHo",
+  "title": "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+  "duration": "21:40",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=AO5aW01DKHo",
+  "viewCount": 194973,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/AO5aW01DKHo/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD7BnNGPx1uCvP1xlaI7d4_-SeZQg",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 21,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "uUEa6K-FLB8",
+  "title": "I Will Never Fix Another n8n Workflow (Claude Code)",
+  "duration": "13:20",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=uUEa6K-FLB8",
+  "viewCount": 31945,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/uUEa6K-FLB8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLByFJbm0CjIwK_NvHFqw2eAPs5dMA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 22,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "saggDHHnmtQ",
+  "title": "Master 95% of Claude Code in 36 Mins (as a beginner)",
+  "duration": "36:58",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=saggDHHnmtQ",
+  "viewCount": 203550,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/saggDHHnmtQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA4VHUQ2_uZ5bCFMnEhS9IGy9LKyQ",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 23,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "KGXFkUlBHxw",
+  "title": "I Built an AI System That Automates My Proposals (n8n + Gamma)",
+  "duration": "20:46",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=KGXFkUlBHxw",
+  "viewCount": 27354,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/KGXFkUlBHxw/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCr7HhImM2DftNpxlTkoLip3kd3PQ",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 24,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "OCO3aq3G0mk",
+  "title": "Build ANYTHING with Claude Code & n8n (Beginner's Guide)",
+  "duration": "39:58",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=OCO3aq3G0mk",
+  "viewCount": 61478,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/OCO3aq3G0mk/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAghSHnK3gpRrGlValvA6ln_gBkfQ",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 25,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "B6k_vAjndMo",
+  "title": "Claude Code is Better at n8n than I am (Beginner's Guide)",
+  "duration": "28:07",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=B6k_vAjndMo",
+  "viewCount": 130959,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/B6k_vAjndMo/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAcXccL4eWKQjg1Q5Ihc8Mt1FY-bg",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 26,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "t1PTmpas0bg",
+  "title": "Easiest Way to Migrate n8n Workflows Between Accounts (cloud to self-hosted)",
+  "duration": "10:59",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=t1PTmpas0bg",
+  "viewCount": 5624,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/t1PTmpas0bg/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD3tf0SkqU9A6hlU3W0dFQRdaMZyQ",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 27,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "BO-jFbN4p8Y",
+  "title": "I Built a Voice Agent That Calls Every New Lead (n8n + Vapi)",
+  "duration": "26:42",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=BO-jFbN4p8Y",
+  "viewCount": 29522,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/BO-jFbN4p8Y/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCEsra5WpnP59Yh1jeHEtHa4eOrMA",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 28,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+},
+{
+  "id": "Q4iEslmyMyM",
+  "title": "I Built a New AI System in 3 Hours (and got paid $1650)",
+  "duration": "29:39",
+  "channelName": "Nate Herk | AI Automation",
+  "channelUsername": "nateherk",
+  "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+  "date": "1 month ago",
+  "url": "https://www.youtube.com/watch?v=Q4iEslmyMyM",
+  "viewCount": 23792,
+  "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+  "type": "video",
+  "thumbnailUrl": "https://i.ytimg.com/vi/Q4iEslmyMyM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBG1njuR4fs5kOkGavoUBwmxvUCfw",
+  "input": "https://www.youtube.com/@nateherk/videos",
+  "order": 29,
+  "progressKey": {
+    "url": "https://www.youtube.com/@nateherk/about?ucbcb=1",
+    "label": "CHANNEL_VIDEOS"
+  },
+  "standardizedUrl": "https://www.youtube.com/@nateherk/about",
+  "aboutChannelInfo": {
+    "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelUsername": "nateherk",
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 348,
+    "channelTotalViews": 24420299,
+    "numberOfSubscribers": 556000,
+    "isChannelVerified": true,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false
+  },
+  "fromChannelListPage": "videos",
+  "channelDescription": "Hi 👋 I'm Nate Herk. I’m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don’t adopt AI will struggle to keep up, and I’m here to make sure you’re ahead of the curve. Whether you’re new to AI or looking to refine your workflows, I’m here to guide you through it all.\n\nLet’s build a more efficient future together! Book a call on my website!",
+  "channelJoinedDate": "Nov 17, 2013",
+  "channelDescriptionLinks": [
+    {
+      "text": "AI Automation Society Plus",
+      "url": "https://www.skool.com/ai-automation-society-plus/about"
+    },
+    {
+      "text": "Free Skool Community",
+      "url": "https://www.skool.com/ai-automation-society/about"
+    },
+    {
+      "text": "Apply for the Podcast",
+      "url": "https://podcast.nateherk.com/apply"
+    },
+    {
+      "text": "About Me",
+      "url": "https://nateherk.com/"
+    }
+  ],
+  "channelLocation": null,
+  "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s160-c-k-c0x00ffffff-no-rj",
+  "channelBannerUrl": "https://yt3.googleusercontent.com/d9WdWFuolX3CTDEIwtqtuI3-OSivdtSkHbJ9V4P4zwsNchPAJUn3hy_Nszdwz_nCiLieovvW=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "channelTotalVideos": 348,
+  "channelTotalViews": 24420299,
+  "numberOfSubscribers": 556000,
+  "isChannelVerified": true,
+  "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+  "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+  "isAgeRestricted": false
+}]

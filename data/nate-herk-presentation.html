@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nate Herk YouTube Analysis</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e5e5e5; overflow: hidden; height: 100vh; }
+
+  .slide { display: none; height: 100vh; padding: 60px 80px; flex-direction: column; justify-content: center; }
+  .slide.active { display: flex; }
+
+  h1 { font-size: 52px; font-weight: 700; margin-bottom: 12px; line-height: 1.15; }
+  h2 { font-size: 38px; font-weight: 700; margin-bottom: 32px; line-height: 1.2; }
+  h3 { font-size: 26px; font-weight: 600; margin-bottom: 16px; color: #a78bfa; }
+  p { font-size: 22px; line-height: 1.6; color: #a1a1aa; }
+  .subtitle { font-size: 24px; color: #a78bfa; font-weight: 500; margin-bottom: 8px; }
+  .big-number { font-size: 64px; font-weight: 800; color: #fff; }
+  .accent { color: #a78bfa; }
+  .green { color: #4ade80; }
+  .red { color: #f87171; }
+  .yellow { color: #facc15; }
+  .dim { color: #71717a; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+
+  .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 28px; }
+  .card-sm { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 20px; }
+
+  .stat-card { text-align: center; }
+  .stat-card .label { font-size: 14px; text-transform: uppercase; letter-spacing: 1.5px; color: #71717a; margin-bottom: 8px; }
+  .stat-card .value { font-size: 42px; font-weight: 800; color: #fff; }
+  .stat-card .sub { font-size: 16px; color: #a78bfa; margin-top: 4px; }
+
+  .bar-row { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
+  .bar-label { width: 160px; font-size: 15px; text-align: right; color: #d4d4d8; flex-shrink: 0; }
+  .bar-track { flex: 1; height: 32px; background: rgba(255,255,255,0.04); border-radius: 8px; overflow: hidden; position: relative; }
+  .bar-fill { height: 100%; border-radius: 8px; display: flex; align-items: center; padding-left: 12px; font-size: 14px; font-weight: 600; color: #fff; min-width: fit-content; }
+  .bar-value { font-size: 15px; color: #a1a1aa; width: 80px; text-align: right; flex-shrink: 0; }
+
+  .video-row { display: flex; align-items: center; gap: 16px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .video-row:last-child { border-bottom: none; }
+  .video-rank { font-size: 18px; font-weight: 700; width: 30px; color: #71717a; }
+  .video-title { flex: 1; font-size: 17px; color: #e5e5e5; }
+  .video-views { font-size: 17px; font-weight: 600; width: 100px; text-align: right; }
+  .video-dur { font-size: 15px; color: #71717a; width: 60px; text-align: right; }
+
+  .hook-box { background: rgba(167,139,250,0.06); border-left: 3px solid #a78bfa; padding: 16px 20px; border-radius: 0 8px 8px 0; margin-bottom: 16px; font-size: 16px; line-height: 1.6; color: #d4d4d8; }
+  .hook-label { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #a78bfa; margin-bottom: 6px; }
+
+  .insight { display: flex; gap: 16px; margin-bottom: 20px; }
+  .insight-icon { font-size: 28px; flex-shrink: 0; width: 40px; text-align: center; }
+  .insight-text { font-size: 19px; line-height: 1.5; }
+  .insight-text strong { color: #fff; }
+
+  .nav { position: fixed; bottom: 30px; right: 40px; display: flex; gap: 12px; z-index: 100; }
+  .nav button { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); color: #fff; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 15px; }
+  .nav button:hover { background: rgba(255,255,255,0.15); }
+  .slide-counter { position: fixed; bottom: 36px; left: 40px; font-size: 14px; color: #52525b; z-index: 100; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: Title -->
+<div class="slide active" id="s1">
+  <div>
+    <p class="subtitle">YouTube Channel Analysis</p>
+    <h1 style="font-size: 56px; margin-bottom: 20px;">Nate Herk<br><span class="accent">AI Automation</span></h1>
+    <p style="font-size: 22px; max-width: 700px; margin-bottom: 40px;">
+      What's working, what's not, and content patterns from his last 30 videos.
+    </p>
+    <div class="grid-3" style="max-width: 700px;">
+      <div class="stat-card card-sm">
+        <div class="label">Subscribers</div>
+        <div class="value" style="font-size: 32px;">556K</div>
+      </div>
+      <div class="stat-card card-sm">
+        <div class="label">Total Views</div>
+        <div class="value" style="font-size: 32px;">24.4M</div>
+      </div>
+      <div class="stat-card card-sm">
+        <div class="label">Videos</div>
+        <div class="value" style="font-size: 32px;">348</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 2: Overview Stats -->
+<div class="slide" id="s2">
+  <h2>Last 30 Videos <span class="dim">at a Glance</span></h2>
+  <div class="grid-3" style="margin-bottom: 40px;">
+    <div class="stat-card card">
+      <div class="label">Average Views</div>
+      <div class="value">71.8K</div>
+    </div>
+    <div class="stat-card card">
+      <div class="label">Median Views</div>
+      <div class="value">61.5K</div>
+    </div>
+    <div class="stat-card card">
+      <div class="label">Total Views</div>
+      <div class="value">2.16M</div>
+    </div>
+  </div>
+  <div class="grid-2">
+    <div class="card" style="text-align:center;">
+      <div class="label" style="font-size:14px; text-transform:uppercase; letter-spacing:1.5px; color:#71717a; margin-bottom:8px;">Highest Performer</div>
+      <div style="font-size:28px; font-weight:700;">235K views</div>
+      <div style="font-size:15px; color:#a78bfa; margin-top:4px;">100 Hours Testing Clawdbot vs Claude Code</div>
+    </div>
+    <div class="card" style="text-align:center;">
+      <div class="label" style="font-size:14px; text-transform:uppercase; letter-spacing:1.5px; color:#71717a; margin-bottom:8px;">Growth Rate</div>
+      <div style="font-size:28px; font-weight:700;">+1,270 subs/day</div>
+      <div style="font-size:15px; color:#a78bfa; margin-top:4px;">+38K subs last 30 days</div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 3: Top 10 -->
+<div class="slide" id="s3">
+  <h2>Top 10 <span class="green">Winners</span></h2>
+  <div class="video-row"><div class="video-rank">1</div><div class="video-title">100 Hours Testing Clawdbot vs Claude Code (honest results)</div><div class="video-views green">235K</div><div class="video-dur">22:47</div></div>
+  <div class="video-row"><div class="video-rank">2</div><div class="video-title">Master 95% of Claude Code in 36 Mins (as a beginner)</div><div class="video-views green">204K</div><div class="video-dur">36:58</div></div>
+  <div class="video-row"><div class="video-rank">3</div><div class="video-title">Agentic Workflows Just Changed AI Automation Forever!</div><div class="video-views green">195K</div><div class="video-dur">21:40</div></div>
+  <div class="video-row"><div class="video-rank">4</div><div class="video-title">Building Beautiful Websites with Claude Code Is Too Easy</div><div class="video-views green">140K</div><div class="video-dur">27:51</div></div>
+  <div class="video-row"><div class="video-rank">5</div><div class="video-title">Claude Code is Better at n8n than I am (Beginner's Guide)</div><div class="video-views green">131K</div><div class="video-dur">28:07</div></div>
+  <div class="video-row"><div class="video-rank">6</div><div class="video-title">Set Up Clawdbot on a VPS in Minutes (no mac mini)</div><div class="video-views">121K</div><div class="video-dur">13:12</div></div>
+  <div class="video-row"><div class="video-rank">7</div><div class="video-title">How I'd Teach a 10 Year Old to Build Agentic Workflows</div><div class="video-views">106K</div><div class="video-dur">28:24</div></div>
+  <div class="video-row"><div class="video-rank">8</div><div class="video-title">Claude Code Skills Just Got Even Better</div><div class="video-views">93K</div><div class="video-dur">16:15</div></div>
+  <div class="video-row"><div class="video-rank">9</div><div class="video-title">Claude Code Just Added What Everyone Wanted (Remote Control)</div><div class="video-views">86K</div><div class="video-dur">8:02</div></div>
+  <div class="video-row"><div class="video-rank">10</div><div class="video-title">Master 95% of Claude Code Skills in 28 Minutes</div><div class="video-views">77K</div><div class="video-dur">27:19</div></div>
+</div>
+
+<!-- SLIDE 4: Bottom 10 -->
+<div class="slide" id="s4">
+  <h2>Bottom 10 <span class="red">Underperformers</span></h2>
+  <div class="video-row"><div class="video-rank">21</div><div class="video-title">I Will Never Fix Another n8n Workflow (Claude Code)</div><div class="video-views">32K</div><div class="video-dur">13:20</div></div>
+  <div class="video-row"><div class="video-rank">22</div><div class="video-title">I Built a Voice Agent That Calls Every New Lead (n8n + Vapi)</div><div class="video-views">30K</div><div class="video-dur">26:42</div></div>
+  <div class="video-row"><div class="video-rank">23</div><div class="video-title">How to Sign Your First AI Automation Client in 7 days</div><div class="video-views">28K</div><div class="video-dur">20:55</div></div>
+  <div class="video-row"><div class="video-rank">24</div><div class="video-title">I Built an AI System That Automates My Proposals (n8n + Gamma)</div><div class="video-views">27K</div><div class="video-dur">20:46</div></div>
+  <div class="video-row"><div class="video-rank">25</div><div class="video-title">I Built a New AI System in 3 Hours (and got paid $1650)</div><div class="video-views">24K</div><div class="video-dur">29:39</div></div>
+  <div class="video-row"><div class="video-rank">26</div><div class="video-title">How a College Student Made $500k with Cold Email (Exact Framework)</div><div class="video-views red">21K</div><div class="video-dur">36:41</div></div>
+  <div class="video-row"><div class="video-rank">27</div><div class="video-title">How to Sign AI Workflow Clients (With 0 Followers)</div><div class="video-views red">20K</div><div class="video-dur">14:28</div></div>
+  <div class="video-row"><div class="video-rank">28</div><div class="video-title">Easiest Way to Migrate n8n Workflows Between Accounts</div><div class="video-views red">5.6K</div><div class="video-dur">10:59</div></div>
+  <div class="video-row"><div class="video-rank">29</div><div class="video-title">Cursor Automations Clearly Explained (worth learning?)</div><div class="video-views dim">3.2K*</div><div class="video-dur">9:13</div></div>
+  <div class="video-row"><div class="video-rank">30</div><div class="video-title">Claude Code Finally Works While You Sleep</div><div class="video-views dim">1.5K*</div><div class="video-dur">9:44</div></div>
+  <p style="font-size: 14px; color: #52525b; margin-top: 16px;">* Posted less than 24 hours ago, still accumulating views</p>
+</div>
+
+<!-- SLIDE 5: Topic Performance -->
+<div class="slide" id="s5">
+  <h2>Topic Performance <span class="dim">Avg Views by Subject</span></h2>
+
+  <div class="bar-row">
+    <div class="bar-label">Clawdbot</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 100%; background: linear-gradient(90deg, #a78bfa, #7c3aed);">143K avg</div></div>
+    <div class="bar-value">3 vids</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">VPS / Deploy</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 84%; background: linear-gradient(90deg, #a78bfa, #7c3aed);">121K avg</div></div>
+    <div class="bar-value">1 vid</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Claude Code</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 69%; background: linear-gradient(90deg, #4ade80, #16a34a);">98K avg</div></div>
+    <div class="bar-value green" style="font-weight:700;">16 vids</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Website Building</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 59%; background: linear-gradient(90deg, #60a5fa, #2563eb);">85K avg</div></div>
+    <div class="bar-value">3 vids</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Skills</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 57%; background: linear-gradient(90deg, #60a5fa, #2563eb);">81K avg</div></div>
+    <div class="bar-value">3 vids</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">n8n</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 34%; background: linear-gradient(90deg, #facc15, #ca8a04);">49K avg</div></div>
+    <div class="bar-value yellow">7 vids</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">trigger.dev</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 26%; background: linear-gradient(90deg, #facc15, #ca8a04);">38K avg</div></div>
+    <div class="bar-value">1 vid</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Business / Clients</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 24%; background: linear-gradient(90deg, #f87171, #dc2626);">34K avg</div></div>
+    <div class="bar-value red">5 vids</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Cold Email</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 15%; background: linear-gradient(90deg, #f87171, #dc2626);">21K avg</div></div>
+    <div class="bar-value">1 vid</div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">Cursor</div>
+    <div class="bar-track"><div class="bar-fill" style="width: 2%; background: linear-gradient(90deg, #f87171, #dc2626);">3K*</div></div>
+    <div class="bar-value dim">1 vid</div>
+  </div>
+</div>
+
+<!-- SLIDE 6: What's Working -->
+<div class="slide" id="s6">
+  <h2>What's <span class="green">Working</span></h2>
+  <div style="max-width: 900px;">
+    <div class="insight">
+      <div class="insight-icon">1</div>
+      <div class="insight-text"><strong>Claude Code is the engine.</strong> 16 of 30 videos mention Claude Code. Average: 98K views. It's his core topic and the audience can't get enough.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">2</div>
+      <div class="insight-text"><strong>"Master X% in Y Minutes" format crushes.</strong> Comprehensive beginner tutorials with time-bound promises (36 min, 28 min, 26 min) consistently break 100K+ views.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">3</div>
+      <div class="insight-text"><strong>Comparison & honest review hooks.</strong> "100 Hours Testing..." (235K) works because it implies real effort and honest opinion. Builds massive trust.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">4</div>
+      <div class="insight-text"><strong>Tangible outcomes in titles.</strong> "$10K Websites", "Beautiful Websites", "Executive Assistant" &mdash; specific results that viewers can picture getting themselves.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">5</div>
+      <div class="insight-text"><strong>20-28 min sweet spot.</strong> 7 of the top 10 videos are 20-28 minutes. Long enough to deliver real value, short enough to finish watching.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">6</div>
+      <div class="insight-text"><strong>"Just Changed Everything" / news hooks.</strong> Positioning updates as paradigm shifts ("Changed AI Automation Forever", "Just Added What Everyone Wanted") drives urgency.</div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 7: What's NOT Working -->
+<div class="slide" id="s7">
+  <h2>What's <span class="red">Not Working</span></h2>
+  <div style="max-width: 900px;">
+    <div class="insight">
+      <div class="insight-icon">1</div>
+      <div class="insight-text"><strong>Business/client acquisition topics flop.</strong> "How to Sign Clients" and "Cold Email" videos avg 20-28K &mdash; 3x below channel average. Audience wants to BUILD, not sell.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">2</div>
+      <div class="insight-text"><strong>Technical migration / maintenance content dies.</strong> "Migrate n8n Workflows Between Accounts" (5.6K) &mdash; operational, boring, no aspirational hook.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">3</div>
+      <div class="insight-text"><strong>Guest/interview format underperforms.</strong> "$500K with Cold Email" (21K) &mdash; guest videos break the parasocial connection. Audience comes for Nate, not strangers.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">4</div>
+      <div class="insight-text"><strong>Non-Claude tools get fraction of views.</strong> Cursor video: 3.2K. Pure n8n content averages ~49K vs Claude Code's 98K. The audience has picked a tribe.</div>
+    </div>
+    <div class="insight">
+      <div class="insight-icon">5</div>
+      <div class="insight-text"><strong>"I Built..." without a clear outcome.</strong> "I Built an AI System That Automates My Proposals" (27K) &mdash; vague deliverable. Compare to "Building Beautiful Websites" (140K) which is specific.</div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 8: Hook Patterns -->
+<div class="slide" id="s8">
+  <h2>Hook Patterns <span class="dim">from Transcripts</span></h2>
+  <div class="grid-2">
+    <div>
+      <h3 style="color: #4ade80;">Winning Hooks</h3>
+      <div class="hook-box">
+        <div class="hook-label">235K views</div>
+        "So, in about 5 hours and 80 million tokens later, I've built myself a full executive assistant. His name is Klouse."
+      </div>
+      <div class="hook-box">
+        <div class="hook-label">195K views</div>
+        "AI automation is about to change forever. Most workflows today only do exactly what you tell them, nothing more. But Agentic workflows are different."
+      </div>
+      <div class="hook-box">
+        <div class="hook-label">204K views</div>
+        "Cloud Code has been allowing me to build things that used to take me hours in just minutes. So that's exactly what I'm going to be teaching you guys today."
+      </div>
+    </div>
+    <div>
+      <h3 style="color: #f87171;">Weaker Hooks</h3>
+      <div class="hook-box" style="background: rgba(248,113,113,0.06); border-left-color: #f87171;">
+        <div class="hook-label" style="color: #f87171;">5.6K views</div>
+        "Today I'm going to be showing you guys a really easy and safe way to migrate hundreds of workflows between two NIDN instances."
+      </div>
+      <div class="hook-box" style="background: rgba(248,113,113,0.06); border-left-color: #f87171;">
+        <div class="hook-label" style="color: #f87171;">20K views</div>
+        "People keep telling me they can't land AI clients because they don't have a YouTube channel..."
+      </div>
+      <div class="hook-box" style="background: rgba(248,113,113,0.06); border-left-color: #f87171;">
+        <div class="hook-label" style="color: #f87171;">21K views</div>
+        "Cold email is responsible for some of the fastest client acquisition in the agency space..."
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 9: Hook Formula -->
+<div class="slide" id="s9">
+  <h2>The Winning Hook <span class="accent">Formula</span></h2>
+  <div style="max-width: 850px;">
+    <div class="card" style="margin-bottom: 28px; padding: 32px;">
+      <h3 style="margin-bottom: 20px; font-size: 22px;">Winners open with a RESULT, then promise to teach</h3>
+      <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 12px;">
+        <div style="background: #4ade80; color: #000; padding: 6px 14px; border-radius: 6px; font-weight: 700; font-size: 14px; flex-shrink:0;">RESULT</div>
+        <div style="font-size: 18px; color: #d4d4d8;">"I've built a full executive assistant... he has his own email, his own ClickUp account"</div>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 12px;">
+        <div style="background: #a78bfa; color: #000; padding: 6px 14px; border-radius: 6px; font-weight: 700; font-size: 14px; flex-shrink:0;">PROMISE</div>
+        <div style="font-size: 18px; color: #d4d4d8;">"So that's exactly what I'm going to be teaching you guys today"</div>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: center;">
+        <div style="background: #60a5fa; color: #000; padding: 6px 14px; border-radius: 6px; font-weight: 700; font-size: 14px; flex-shrink:0;">ACCESSIBLE</div>
+        <div style="font-size: 18px; color: #d4d4d8;">"Even if you don't know how to code and even if you've never touched an IDE before"</div>
+      </div>
+    </div>
+    <div class="card" style="padding: 32px; border-color: rgba(248,113,113,0.2);">
+      <h3 style="margin-bottom: 20px; font-size: 22px; color: #f87171;">Losers open with PROCESS or PROBLEM</h3>
+      <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 12px;">
+        <div style="background: #f87171; color: #000; padding: 6px 14px; border-radius: 6px; font-weight: 700; font-size: 14px; flex-shrink:0;">PROCESS</div>
+        <div style="font-size: 18px; color: #d4d4d8;">"I'm going to be showing you a really easy way to migrate workflows"</div>
+      </div>
+      <div style="display: flex; gap: 20px; align-items: center;">
+        <div style="background: #f87171; color: #000; padding: 6px 14px; border-radius: 6px; font-weight: 700; font-size: 14px; flex-shrink:0;">PROBLEM</div>
+        <div style="font-size: 18px; color: #d4d4d8;">"People keep telling me they can't land AI clients..."</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 10: Content Strategy Breakdown -->
+<div class="slide" id="s10">
+  <h2>Content Mix <span class="dim">Last 30 Videos</span></h2>
+  <div class="grid-2">
+    <div>
+      <h3 style="font-size: 20px; margin-bottom: 20px;">By Topic (% of videos)</h3>
+      <div style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span style="font-size:15px;">Claude Code</span><span style="font-size:15px; color:#4ade80;">53%</span></div>
+        <div style="height:12px; background:rgba(255,255,255,0.04); border-radius:6px; overflow:hidden;"><div style="height:100%; width:53%; background:#4ade80; border-radius:6px;"></div></div>
+      </div>
+      <div style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span style="font-size:15px;">n8n</span><span style="font-size:15px; color:#facc15;">23%</span></div>
+        <div style="height:12px; background:rgba(255,255,255,0.04); border-radius:6px; overflow:hidden;"><div style="height:100%; width:23%; background:#facc15; border-radius:6px;"></div></div>
+      </div>
+      <div style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span style="font-size:15px;">Business/Sales</span><span style="font-size:15px; color:#f87171;">17%</span></div>
+        <div style="height:12px; background:rgba(255,255,255,0.04); border-radius:6px; overflow:hidden;"><div style="height:100%; width:17%; background:#f87171; border-radius:6px;"></div></div>
+      </div>
+      <div style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span style="font-size:15px;">Other Tools</span><span style="font-size:15px; color:#71717a;">7%</span></div>
+        <div style="height:12px; background:rgba(255,255,255,0.04); border-radius:6px; overflow:hidden;"><div style="height:100%; width:7%; background:#71717a; border-radius:6px;"></div></div>
+      </div>
+    </div>
+    <div>
+      <h3 style="font-size: 20px; margin-bottom: 20px;">By Format</h3>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>"Master X in Y Min" tutorials</span>
+          <span class="green" style="font-weight:700;">~150K avg</span>
+        </div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>Tool comparison / review</span>
+          <span class="green" style="font-weight:700;">~160K avg</span>
+        </div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>Feature announcement / news</span>
+          <span style="font-weight:700;">~85K avg</span>
+        </div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>"I Built..." build logs</span>
+          <span class="yellow" style="font-weight:700;">~55K avg</span>
+        </div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>Business / client advice</span>
+          <span class="red" style="font-weight:700;">~24K avg</span>
+        </div>
+      </div>
+      <div class="card-sm">
+        <div style="display:flex; justify-content:space-between;">
+          <span>Guest interviews</span>
+          <span class="red" style="font-weight:700;">~21K avg</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 11: Key Takeaways -->
+<div class="slide" id="s11">
+  <h2>Key <span class="accent">Takeaways</span></h2>
+  <div style="max-width: 900px;">
+    <div class="card" style="margin-bottom: 20px; padding: 28px;">
+      <h3 style="color: #4ade80; font-size: 20px;">Double down on Claude Code</h3>
+      <p style="font-size: 18px;">53% of videos, 2x the views of any other topic. The audience is here for this. Every other topic he covers gets compared unfavorably.</p>
+    </div>
+    <div class="card" style="margin-bottom: 20px; padding: 28px;">
+      <h3 style="color: #4ade80; font-size: 20px;">Beginner-friendly tutorials are the growth engine</h3>
+      <p style="font-size: 18px;">"Master 95%", "Teach a 10 Year Old", "Beginner's Guide" &mdash; these are the viral magnets. New viewers find these, subscribe, and stay.</p>
+    </div>
+    <div class="card" style="margin-bottom: 20px; padding: 28px;">
+      <h3 style="color: #facc15; font-size: 20px;">n8n is declining but still relevant</h3>
+      <p style="font-size: 18px;">n8n-only content (49K avg) underperforms vs Claude Code (98K avg). But "Claude Code + n8n" hybrid content (131K) bridges both audiences.</p>
+    </div>
+    <div class="card" style="padding: 28px;">
+      <h3 style="color: #f87171; font-size: 20px;">Stop making sales/biz advice videos</h3>
+      <p style="font-size: 18px;">Business content (24K avg) tanks every time. His audience is technical builders, not salespeople. Use the podcast for those topics instead.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 12: Title Formulas -->
+<div class="slide" id="s12">
+  <h2>Title Formulas <span class="dim">That Win</span></h2>
+  <div class="grid-2">
+    <div>
+      <h3 style="color: #4ade80; font-size: 20px; margin-bottom: 20px;">High-Performing Patterns</h3>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="font-size: 13px; color: #4ade80; margin-bottom: 4px;">COMPREHENSIVE TUTORIAL</div>
+        <div style="font-size: 17px;">"Master [X]% of [Tool] in [Y] Mins"</div>
+        <div style="font-size: 14px; color: #71717a;">204K, 77K</div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="font-size: 13px; color: #4ade80; margin-bottom: 4px;">PARADIGM SHIFT</div>
+        <div style="font-size: 17px;">"[X] Just Changed [Y] Forever!"</div>
+        <div style="font-size: 14px; color: #71717a;">195K</div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="font-size: 13px; color: #4ade80; margin-bottom: 4px;">HONEST COMPARISON</div>
+        <div style="font-size: 17px;">"[X] Hours Testing [A] vs [B] (honest results)"</div>
+        <div style="font-size: 14px; color: #71717a;">235K</div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px;">
+        <div style="font-size: 13px; color: #4ade80; margin-bottom: 4px;">EFFORTLESS OUTCOME</div>
+        <div style="font-size: 17px;">"[Outcome] with [Tool] Is Too Easy"</div>
+        <div style="font-size: 14px; color: #71717a;">140K</div>
+      </div>
+      <div class="card-sm">
+        <div style="font-size: 13px; color: #4ade80; margin-bottom: 4px;">ACCESSIBILITY</div>
+        <div style="font-size: 17px;">"How I'd Teach a 10 Year Old..."</div>
+        <div style="font-size: 14px; color: #71717a;">106K</div>
+      </div>
+    </div>
+    <div>
+      <h3 style="color: #f87171; font-size: 20px; margin-bottom: 20px;">Low-Performing Patterns</h3>
+      <div class="card-sm" style="margin-bottom: 12px; border-color: rgba(248,113,113,0.15);">
+        <div style="font-size: 13px; color: #f87171; margin-bottom: 4px;">PERSONAL BUILD LOG</div>
+        <div style="font-size: 17px;">"I Built [X] That [Does Y]"</div>
+        <div style="font-size: 14px; color: #71717a;">24K-27K</div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px; border-color: rgba(248,113,113,0.15);">
+        <div style="font-size: 13px; color: #f87171; margin-bottom: 4px;">HOW-TO BIZ ADVICE</div>
+        <div style="font-size: 17px;">"How to Sign [X] Client in [Y] Days"</div>
+        <div style="font-size: 14px; color: #71717a;">20K-28K</div>
+      </div>
+      <div class="card-sm" style="margin-bottom: 12px; border-color: rgba(248,113,113,0.15);">
+        <div style="font-size: 13px; color: #f87171; margin-bottom: 4px;">GUEST STORY</div>
+        <div style="font-size: 17px;">"How [Person] Made $[X] with [Y]"</div>
+        <div style="font-size: 14px; color: #71717a;">21K</div>
+      </div>
+      <div class="card-sm" style="border-color: rgba(248,113,113,0.15);">
+        <div style="font-size: 13px; color: #f87171; margin-bottom: 4px;">OPERATIONAL / NICHE</div>
+        <div style="font-size: 17px;">"Easiest Way to Migrate [X]"</div>
+        <div style="font-size: 14px; color: #71717a;">5.6K</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navigation -->
+<div class="nav">
+  <button onclick="prevSlide()">Prev</button>
+  <button onclick="nextSlide()">Next</button>
+</div>
+<div class="slide-counter" id="counter">1 / 12</div>
+
+<script>
+  let current = 0;
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+
+  function showSlide(n) {
+    slides[current].classList.remove('active');
+    current = (n + total) % total;
+    slides[current].classList.add('active');
+    document.getElementById('counter').textContent = `${current + 1} / ${total}`;
+  }
+
+  function nextSlide() { showSlide(current + 1); }
+  function prevSlide() { showSlide(current - 1); }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); nextSlide(); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); prevSlide(); }
+  });
+</script>
+
+</body>
+</html>
