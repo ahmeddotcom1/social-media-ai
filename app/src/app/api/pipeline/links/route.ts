@@ -1,11 +1,11 @@
-import { runPipeline } from "@/lib/pipeline";
-import type { PipelineParams } from "@/lib/types";
+import { runPipelineFromLinks } from "@/lib/pipeline";
+import type { LinkPipelineParams } from "@/lib/types";
 
 export const maxDuration = 300;
 export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
-  const params: PipelineParams = await request.json();
+  const params: LinkPipelineParams = await request.json();
 
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
@@ -23,7 +23,7 @@ export async function POST(request: Request) {
       };
 
       try {
-        await runPipeline(
+        await runPipelineFromLinks(
           params,
           (progress) => {
             const data = `data: ${JSON.stringify(progress)}\n\n`;

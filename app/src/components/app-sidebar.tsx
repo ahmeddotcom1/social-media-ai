@@ -46,7 +46,7 @@ export function AppSidebar() {
             <Film className="h-4 w-4 text-white" />
           </div>
           <div>
-            <h1 className="text-sm font-semibold tracking-tight">Virality System</h1>
+            <h1 className="text-sm font-semibold tracking-tight">Moody's AI</h1>
             <p className="text-[11px] text-muted-foreground">Instagram Reels AI</p>
           </div>
         </div>

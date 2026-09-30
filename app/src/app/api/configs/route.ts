@@ -20,7 +20,6 @@ export async function POST(request: Request) {
     configName: body.configName,
     creatorsCategory: body.creatorsCategory,
     analysisInstruction: body.analysisInstruction,
-    newConceptsInstruction: body.newConceptsInstruction,
   };
   configs.push(newConfig);
   await writeConfigs(configs);

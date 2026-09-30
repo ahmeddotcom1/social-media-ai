@@ -7,6 +7,8 @@ interface PipelineContextValue {
   running: boolean;
   progress: PipelineProgress | null;
   runPipeline: (params: { configName: string; maxVideos: number; topK: number; nDays: number }) => void;
+  runPipelineFromLinks: (params: { configName: string; links: string[] }) => void;
+  stopPipeline: () => void;
 }
 
 const PipelineContext = createContext<PipelineContextValue | null>(null);
@@ -16,7 +18,7 @@ export function PipelineProvider({ children }: { children: React.ReactNode }) {
   const [progress, setProgress] = useState<PipelineProgress | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
-  const runPipeline = useCallback(async (params: { configName: string; maxVideos: number; topK: number; nDays: number }) => {
+  const stream = useCallback(async (url: string, body: unknown) => {
     if (running) return;
     setRunning(true);
     setProgress(null);
@@ -24,10 +26,10 @@ export function PipelineProvider({ children }: { children: React.ReactNode }) {
     abortRef.current = new AbortController();
 
     try {
-      const response = await fetch("/api/pipeline", {
+      const response = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(params),
+        body: JSON.stringify(body),
         signal: abortRef.current.signal,
       });
 
@@ -57,7 +59,15 @@ export function PipelineProvider({ children }: { children: React.ReactNode }) {
         }
       }
     } catch (err) {
-      if ((err as Error).name === "AbortError") return;
+      if ((err as Error).name === "AbortError") {
+        // The server keeps running until its own next isAborted() checkpoint
+        // (see pipeline.ts) and may still send a final "stopped" progress
+        // event before the connection fully closes — but that's a race, not
+        // a guarantee. Set it here too so the UI reliably reflects the stop
+        // immediately regardless of whether that last message arrives.
+        setProgress((prev) => (prev ? { ...prev, status: "stopped" as const } : prev));
+        return;
+      }
       setProgress((prev) => ({
         ...(prev || { phase: "done" as const, activeTasks: [], creatorsCompleted: 0, creatorsTotal: 0, creatorsScraped: 0, videosAnalyzed: 0, videosTotal: 0, log: [] }),
         status: "error" as const,
@@ -68,8 +78,20 @@ export function PipelineProvider({ children }: { children: React.ReactNode }) {
     }
   }, [running]);
 
+  const runPipeline = useCallback((params: { configName: string; maxVideos: number; topK: number; nDays: number }) => {
+    stream("/api/pipeline", params);
+  }, [stream]);
+
+  const runPipelineFromLinks = useCallback((params: { configName: string; links: string[] }) => {
+    stream("/api/pipeline/links", params);
+  }, [stream]);
+
+  const stopPipeline = useCallback(() => {
+    abortRef.current?.abort();
+  }, []);
+
   return (
-    <PipelineContext.Provider value={{ running, progress, runPipeline }}>
+    <PipelineContext.Provider value={{ running, progress, runPipeline, runPipelineFromLinks, stopPipeline }}>
       {children}
     </PipelineContext.Provider>
   );

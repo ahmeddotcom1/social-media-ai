@@ -13,14 +13,13 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
-import { Plus, Pencil, Trash2, Settings2, Sparkles, Search, Users, Film } from "lucide-react";
+import { Plus, Pencil, Trash2, Settings2, Search, Users, Film } from "lucide-react";
 import type { Config, Creator, Video } from "@/lib/types";
 
 const emptyConfig = {
   configName: "",
   creatorsCategory: "",
   analysisInstruction: "",
-  newConceptsInstruction: "",
 };
 
 export default function ConfigsPage() {
@@ -53,7 +52,6 @@ export default function ConfigsPage() {
       configName: config.configName,
       creatorsCategory: config.creatorsCategory,
       analysisInstruction: config.analysisInstruction,
-      newConceptsInstruction: config.newConceptsInstruction,
     });
     setDialogOpen(true);
   };
@@ -134,19 +132,6 @@ export default function ConfigsPage() {
                   className="mt-1.5 rounded-xl glass border-white/[0.08] font-mono text-xs leading-relaxed"
                 />
               </div>
-              <div>
-                <Label className="text-xs text-muted-foreground flex items-center gap-1.5">
-                  <Sparkles className="h-3 w-3 text-indigo-400" />
-                  New Concepts Instruction (Claude prompt)
-                </Label>
-                <Textarea
-                  value={form.newConceptsInstruction}
-                  onChange={(e) => setForm({ ...form, newConceptsInstruction: e.target.value })}
-                  placeholder="Prompt that tells Claude how to generate new concepts..."
-                  rows={10}
-                  className="mt-1.5 rounded-xl glass border-white/[0.08] font-mono text-xs leading-relaxed"
-                />
-              </div>
               <Button
                 onClick={handleSave}
                 className="w-full rounded-xl h-11 bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 border-0"
@@ -207,17 +192,11 @@ export default function ConfigsPage() {
                   </Button>
                 </div>
               </div>
-              <div className="mt-4 grid gap-3 md:grid-cols-2">
+              <div className="mt-4">
                 <div className="rounded-xl bg-black/20 border border-white/[0.04] p-3">
                   <p className="text-[10px] font-medium text-purple-400 uppercase tracking-wider mb-1.5">Analysis Prompt</p>
                   <p className="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
                     {config.analysisInstruction}
-                  </p>
-                </div>
-                <div className="rounded-xl bg-black/20 border border-white/[0.04] p-3">
-                  <p className="text-[10px] font-medium text-indigo-400 uppercase tracking-wider mb-1.5">Concepts Prompt</p>
-                  <p className="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
-                    {config.newConceptsInstruction}
                   </p>
                 </div>
               </div>
