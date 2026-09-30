@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
   // devDependencies like tailwindcss in dev mode. Pin it explicitly.
   turbopack: {
     root: __dirname,
+    // See src/lib/undici-shim.ts — keeps Vercel Blob working on Cloudflare Workers.
+    resolveAlias: {
+      undici: "./src/lib/undici-shim.ts",
+    },
   },
   images: {
     remotePatterns: [
