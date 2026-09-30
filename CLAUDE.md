@@ -35,7 +35,7 @@ npm run dev
 - **Redis (Upstash)** — stores the configs/creators/videos "CSV" data (read/written as CSV-formatted strings via `csv.ts`); chosen over CSV-on-disk/Blob for immediate read-after-write consistency on Vercel
 - **Vercel Blob** — stores downloaded video thumbnails (write-once, CDN-cached)
 - **Apify** — Instagram scraping (`apify~instagram-scraper` actor, used both for creator-profile feeds and direct reel/post URLs)
-- **Google Gemini 3.6 Flash** — Video analysis + transcript/hook extraction (upload + multimodal)
+- **Google Gemini 3.8 Flash** — Video analysis + transcript/hook extraction (upload + multimodal)
 - **Claude Sonnet** — New concept generation
 
 ---
