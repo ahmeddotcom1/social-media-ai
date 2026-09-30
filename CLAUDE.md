@@ -24,6 +24,8 @@ npm run dev
 - `GEMINI_API_KEY` — Google Gemini video analysis
 - `ANTHROPIC_API_KEY` — Claude concept generation
 
+**Deploy (Cloudflare Workers via OpenNext):** `app/wrangler.jsonc` + `app/open-next.config.ts`. Cloudflare project root dir = `app`, build command `npx opennextjs-cloudflare build`, deploy command `npx opennextjs-cloudflare deploy`. Env vars/secrets are set in the Cloudflare dashboard (not `.env`). Local Worker test: copy `.env` to `app/.dev.vars` (gitignored), then `npm run preview`. `@opennextjs/cloudflare` requires Next ≥16.3.6.
+
 ---
 
 ## Tech Stack
