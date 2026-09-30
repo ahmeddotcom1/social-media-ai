@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Film, Play, Users, Settings2 } from "lucide-react";
+import { Film, Play, Users, Settings2, LogOut } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -76,13 +76,23 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-      {lastRun && (
-        <SidebarFooter className="px-5 py-4">
+      <SidebarFooter className="px-5 py-4 gap-3">
+        {lastRun && (
           <p className="text-[11px] text-muted-foreground">
             Last pipeline: <span className="text-foreground/70">{lastRun}</span>
           </p>
-        </SidebarFooter>
-      )}
+        )}
+        <button
+          onClick={async () => {
+            await fetch("/api/auth/logout", { method: "POST" }).catch(() => {});
+            window.location.href = "/login";
+          }}
+          className="flex items-center gap-2 text-[12px] text-muted-foreground transition-colors hover:text-foreground"
+        >
+          <LogOut className="h-3.5 w-3.5" />
+          Sign out
+        </button>
+      </SidebarFooter>
     </Sidebar>
   );
 }

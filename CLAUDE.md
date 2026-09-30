@@ -23,6 +23,8 @@ npm run dev
 - `APIFY_API_TOKEN` — Apify Instagram scraper
 - `GEMINI_API_KEY` — Google Gemini video analysis
 - `ANTHROPIC_API_KEY` — Claude concept generation
+- `APP_USERNAME` / `APP_PASSWORD` — the single login account for the app
+- `AUTH_SECRET` — random string used to sign the login session cookie (changing it signs everyone out)
 
 **Deploy (Cloudflare Workers via OpenNext):** `app/wrangler.jsonc` + `app/open-next.config.ts`. Cloudflare project root dir = `app`, build command `npx opennextjs-cloudflare build`, deploy command `npx opennextjs-cloudflare deploy`. Env vars/secrets are set in the Cloudflare dashboard (not `.env`). Local Worker test: copy `.env` to `app/.dev.vars` (gitignored), then `npm run preview`. `@opennextjs/cloudflare` requires Next ≥16.3.6.
 
@@ -71,6 +73,9 @@ Both share the same per-video analysis worker (`processVideo()` in `pipeline.ts`
 - Instagram doesn't publicly expose share counts, so `shares` is only ever populated for Facebook links — always 0 for Instagram.
 - The link-based flow supports Instagram and Facebook reel links (auto-detected by domain); TikTok isn't wired up yet. The "By Creators" flow (tracked creator profiles) is still Instagram-only.
 
+### Login
+The whole app (every page and API route) is behind a single-account login. `src/proxy.ts` (Next 16 proxy, formerly middleware) checks an HMAC-signed, httpOnly `session` cookie (`src/lib/auth.ts`, Web Crypto so it runs on Workers) — unauthenticated pages redirect to `/login?next=…`, APIs return 401. `POST /api/auth/login` checks `APP_USERNAME`/`APP_PASSWORD` and sets the 30-day cookie; `POST /api/auth/logout` clears it (Sign out button in the sidebar footer). Credentials live only in `.env` / Cloudflare secrets, never in the repo.
+
 ### Videos Page: Selection, Delete, Export
 The Videos page supports multi-select (hover checkbox per card, or "Select All" which respects the active config/creator filter) for two bulk actions, both single-request (not looped per-id, to avoid read-modify-write races on the Redis-backed store):
 - **Delete** — `DELETE /api/videos` with `{ ids }` (or `?id=` for a single video); best-effort deletes the matching Blob thumbnails too.
@@ -88,17 +93,21 @@ The Videos page supports multi-select (hover checkbox per card, or "Select All" 
 ├── app/                                   # Next.js application
 │   ├── src/
 │   │   ├── app/                           # Pages and API routes
-│   │   │   ├── page.tsx                   # Dashboard
-│   │   │   ├── videos/page.tsx            # Videos browser: filter/sort, thumbnails, analysis/transcript/concepts modal
-│   │   │   ├── run/page.tsx               # Pipeline runner — "By Creators" / "By Links" tabs, live progress
-│   │   │   ├── configs/page.tsx           # Config management
-│   │   │   ├── creators/page.tsx          # Creator management
-│   │   │   └── api/                       # API routes (configs, creators, videos, videos/export, pipeline, pipeline/links)
+│   │   │   ├── layout.tsx                 # Root html/body only
+│   │   │   ├── login/page.tsx             # Login screen (outside the app shell)
+│   │   │   ├── (main)/                    # Route group: signed-in pages + app shell layout (sidebar/top bar)
+│   │   │   ├── (main)/page.tsx            # Redirects to /videos
+│   │   │   ├── (main)/videos/page.tsx            # Videos browser: filter/sort, thumbnails, analysis/transcript/concepts modal
+│   │   │   ├── (main)/run/page.tsx               # Pipeline runner — "By Creators" / "By Links" tabs, live progress
+│   │   │   ├── (main)/configs/page.tsx           # Config management
+│   │   │   ├── (main)/creators/page.tsx          # Creator management
+│   │   │   └── api/                       # API routes (auth/login, auth/logout, configs, creators, videos, videos/export, pipeline, pipeline/links)
 │   │   ├── lib/                           # Core logic
 │   │   │   ├── pipeline.ts               # Pipeline orchestration (runPipeline + runPipelineFromLinks, shared processVideo worker)
 │   │   │   ├── apify.ts                  # Apify scraper client (creator feeds + direct-URL batch scraping)
 │   │   │   ├── gemini.ts                 # Gemini video analysis + transcript/hook extraction
 │   │   │   ├── claude.ts                 # Claude concept generation client
+│   │   │   ├── auth.ts                   # Login check + signed session cookie helpers
 │   │   │   ├── csv.ts                    # CSV-shaped read/write over Redis (see Tech Stack)
 │   │   │   └── types.ts                  # TypeScript interfaces
 │   │   └── components/                    # UI components (shadcn + custom)
@@ -119,7 +128,8 @@ The Videos page supports multi-select (hover checkbox per card, or "Select All" 
 
 | Page | Path | Description |
 |------|------|-------------|
-| Dashboard | `/` | Summary stats, recent videos |
+| Login | `/login` | Sign in with the single app account; every other page requires it |
+| Dashboard | `/` | Redirects to `/videos` |
 | Videos | `/videos` | Browse results with thumbnails; filter by config, search by username; sort by views/likes/comments/shares/dates; multi-select (hover checkbox / Select All) for bulk delete or CSV export; expandable analysis, transcript & concepts (with a highlighted hook + copy-concepts button) |
 | Run Pipeline | `/run` | "By Creators" (config + params) or "By Links" (config + pasted reel URLs), run with live progress streaming |
 | Configs | `/configs` | CRUD for pipeline configs (prompts, categories) |
