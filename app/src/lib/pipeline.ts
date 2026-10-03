@@ -103,7 +103,7 @@ function reelShortcode(url: string): string {
 
 // Detected per-link from its URL (not hardcoded) so the Platform column
 // stays accurate if/when Facebook or TikTok scraping gets wired up later.
-function detectPlatform(url: string): string {
+export function detectPlatform(url: string): string {
   try {
     const host = new URL(url).hostname.replace(/^www\./, "").toLowerCase();
     if (host.includes("instagram.com")) return "Instagram";
@@ -327,6 +327,7 @@ async function processVideo(
     const videoRecord: Video = {
       id: video.videoId,
       link: video.postUrl,
+      videoUrl: video.videoUrl,
       thumbnail: video.thumbnailPath,
       creator: video.username,
       platform: detectPlatform(video.postUrl),

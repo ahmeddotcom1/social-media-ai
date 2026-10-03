@@ -62,7 +62,7 @@ Both share the same per-video analysis worker (`processVideo()` in `pipeline.ts`
 1. Download video, upload to Gemini, analyze with the config's analysis prompt (extracts Concept, Hook, Retention, Reward, Script as one markdown blob)
 2. A second, fixed-prompt Gemini call extracts a structured `transcript` and a verbatim `hook` (first 3 seconds) as separate fields — best-effort, non-fatal on failure
 3. Send analysis + brand context to Claude for adapted video concepts
-4. Save the video (with views/likes/comments/shares, thumbnail, analysis, concepts, transcript, hook) to the videos store, viewable in the Videos page
+4. Save the video (with views/likes/comments/shares, thumbnail, direct `videoUrl`, analysis, concepts, transcript, hook) to the videos store, viewable in the Videos page
 
 ### Two Customizable Prompts Per Config
 
@@ -71,6 +71,7 @@ Both share the same per-video analysis worker (`processVideo()` in `pipeline.ts`
 
 ### Known limitations
 - Instagram doesn't publicly expose share counts, so `shares` is only ever populated for Facebook links — always 0 for Instagram.
+- Video download: `videoUrl` is a signed CDN URL that expires within days, and rows added before it was stored have none. When it's missing/expired, `GET /api/videos/[id]/download` re-scrapes the post via Apify (one paid actor run, ~15-35s) and caches the fresh URL on the row. 18+ / private / deleted posts can't be re-fetched (the scraper runs logged out) and show an error instead.
 - The link-based flow supports Instagram and Facebook reel links (auto-detected by domain); TikTok isn't wired up yet. The "By Creators" flow (tracked creator profiles) is still Instagram-only.
 
 ### Login
@@ -80,6 +81,7 @@ The whole app (every page and API route) is behind a single-account login. `src/
 The Videos page supports multi-select (hover checkbox per card, or "Select All" which respects the active config/creator filter) for two bulk actions, both single-request (not looped per-id, to avoid read-modify-write races on the Redis-backed store):
 - **Delete** — `DELETE /api/videos` with `{ ids }` (or `?id=` for a single video); best-effort deletes the matching Blob thumbnails too.
 - **Export** — `POST /api/videos/export` with `{ ids }` downloads a Google-Sheets-safe CSV (via `csv-stringify`, same library `csv.ts` uses, plus a UTF-8 BOM for emoji/accented text) with columns: username, link, config, views, likes, comments, shares, date posted, date added, hook, analysis, concepts, transcript.
+- **Download video** — download icon on each card and in the modal header calls `GET /api/videos/[id]/download`, which streams the MP4 through the server (cross-origin CDN links can't be renamed and reject hotlinking) as `[creator]-[views].mp4`, re-fetching a fresh URL if the stored one expired (see Known limitations). Errors come back as JSON and show inline under the button.
 - **`sheets-formatter.gs`** (repo root) — a standalone Google Apps Script, not part of the Next.js app. Paste into the destination Sheet's Apps Script editor after importing an export to auto-format it: styled frozen header, muted alternating row banding, wrapped/fixed-width long-text columns, clickable Link column.
 
 ---
@@ -101,7 +103,7 @@ The Videos page supports multi-select (hover checkbox per card, or "Select All" 
 │   │   │   ├── (main)/run/page.tsx               # Pipeline runner — "By Creators" / "By Links" tabs, live progress
 │   │   │   ├── (main)/configs/page.tsx           # Config management
 │   │   │   ├── (main)/creators/page.tsx          # Creator management
-│   │   │   └── api/                       # API routes (auth/login, auth/logout, configs, creators, videos, videos/export, pipeline, pipeline/links)
+│   │   │   └── api/                       # API routes (auth/login, auth/logout, configs, creators, videos, videos/export, videos/[id]/download, pipeline, pipeline/links)
 │   │   ├── lib/                           # Core logic
 │   │   │   ├── pipeline.ts               # Pipeline orchestration (runPipeline + runPipelineFromLinks, shared processVideo worker)
 │   │   │   ├── apify.ts                  # Apify scraper client (creator feeds + direct-URL batch scraping)
@@ -130,7 +132,7 @@ The Videos page supports multi-select (hover checkbox per card, or "Select All" 
 |------|------|-------------|
 | Login | `/login` | Sign in with the single app account; every other page requires it |
 | Dashboard | `/` | Redirects to `/videos` |
-| Videos | `/videos` | Browse results with thumbnails; filter by config, search by username; sort by views/likes/comments/shares/dates; multi-select (hover checkbox / Select All) for bulk delete or CSV export; expandable analysis, transcript & concepts (with a highlighted hook + copy-concepts button) |
+| Videos | `/videos` | Browse results with thumbnails; filter by config, search by username; sort by views/likes/comments/shares/dates; multi-select (hover checkbox / Select All) for bulk delete or CSV export; per-video MP4 download; expandable analysis, transcript & concepts (with a highlighted hook + copy-concepts button) |
 | Run Pipeline | `/run` | "By Creators" (config + params) or "By Links" (config + pasted reel URLs), run with live progress streaming |
 | Configs | `/configs` | CRUD for pipeline configs (prompts, categories) |
 | Creators | `/creators` | CRUD for competitor Instagram accounts |

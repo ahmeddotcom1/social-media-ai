@@ -19,6 +19,10 @@ export interface Creator {
 export interface Video {
   id: string;
   link: string;
+  // Direct MP4 URL from the scraper. Signed and short-lived (Instagram/Facebook
+  // CDN URLs expire within days) — the download route re-scrapes `link` for a
+  // fresh one when this has expired. Empty on rows added before it was stored.
+  videoUrl: string;
   thumbnail: string;
   creator: string;
   platform: string;

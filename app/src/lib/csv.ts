@@ -69,7 +69,7 @@ const VIDEO_COLUMNS = [
   "analysis", "transcript", "scriptHook", "scriptBody", "scriptCta", "hook",
   "hookText", "hookPattern", "scriptBeats", "angle", "format", "structure", "framework", "niche", "cta",
   "datePosted", "dateAdded", "configName", "starred",
-  "remakeFormat", "assignedPage", "queueStatus", "deadline",
+  "remakeFormat", "assignedPage", "queueStatus", "deadline", "videoUrl",
 ];
 
 // Days between posting and scraping — the elapsed time behind Velocity.
@@ -110,6 +110,7 @@ export async function readVideos(): Promise<Video[]> {
     return {
       id: r.id || "",
       link: r.link || r.Link || "",
+      videoUrl: r.videoUrl || "",
       thumbnail: r.thumbnail || r.Thumbnail || "",
       creator: r.creator || r.Creator || "",
       platform,

@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Heart, MessageCircle, Film, Search, Star, Play, ArrowUpDown, X, ExternalLink, Share2, Check, FileText, Zap, Trash2, CheckSquare, Square, Download, Users, Flame, ListTodo, CalendarDays, EyeOff, AlertTriangle } from "lucide-react";
+import { Heart, MessageCircle, Film, Search, Star, Play, ArrowUpDown, X, ExternalLink, Share2, Check, FileText, Zap, Trash2, CheckSquare, Square, Download, Users, Flame, ListTodo, CalendarDays, EyeOff, AlertTriangle, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { MarkdownContent } from "@/components/markdown-content";
 import { REMAKE_FORMATS, VIDEO_STATUSES, hasContradictoryMetrics } from "@/lib/types";
@@ -65,6 +65,30 @@ function Thumbnail({ src, alt, imgClassName, iconClassName }: { src: string; alt
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img src={thumbnailSrc(src)} alt={alt} className={imgClassName} onError={() => setFailedSrc(src)} />
+  );
+}
+
+// "slow" = still running after a few seconds, which means the stored URL had
+// expired and the server is re-scraping the post for a fresh one.
+type DownloadStatus = "loading" | "slow";
+
+function omitKey<T>(record: Record<string, T>, key: string): Record<string, T> {
+  const next = { ...record };
+  delete next[key];
+  return next;
+}
+
+function DownloadVideoButton({ status, onClick, className }: { status?: DownloadStatus; onClick: () => void; className: string }) {
+  return (
+    <button
+      onClick={onClick}
+      disabled={!!status}
+      title={status === "slow" ? "Fetching fresh link…" : status ? "Downloading…" : "Download video"}
+      aria-label="Download video"
+      className="shrink-0 ml-1.5 transition-colors text-muted-foreground/40 hover:text-purple-400 disabled:cursor-wait"
+    >
+      {status ? <Loader2 className={`${className} animate-spin`} /> : <Download className={className} />}
+    </button>
   );
 }
 
@@ -170,6 +194,8 @@ function VideosContent() {
   const [modalVideo, setModalVideo] = useState<Video | null>(null);
   const [modalSection, setModalSection] = useState<"analysis" | "transcript" | "queue">("analysis");
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  const [downloads, setDownloads] = useState<Record<string, DownloadStatus>>({});
+  const [downloadErrors, setDownloadErrors] = useState<Record<string, string>>({});
 
   useEffect(() => {
     fetch("/api/videos").then((r) => r.json()).then(setVideos);
@@ -296,6 +322,43 @@ function VideosContent() {
     a.click();
     a.remove();
     URL.revokeObjectURL(url);
+  };
+
+  // Fetched (not a plain link) so a JSON error from the route — expired URL
+  // that couldn't be refreshed, deleted post — shows as a message instead of
+  // the browser saving the error body as a broken .mp4.
+  const downloadVideo = async (video: Video) => {
+    const { id } = video;
+    if (downloads[id]) return;
+    setDownloads((d) => ({ ...d, [id]: "loading" }));
+    setDownloadErrors((e) => omitKey(e, id));
+    const slowTimer = setTimeout(() => setDownloads((d) => (d[id] ? { ...d, [id]: "slow" } : d)), 3000);
+
+    try {
+      const response = await fetch(`/api/videos/${encodeURIComponent(id)}/download`);
+      if (!response.ok) {
+        const body = await response.json().catch(() => null);
+        throw new Error(body?.error || `Download failed (${response.status})`);
+      }
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const disposition = response.headers.get("Content-Disposition") || "";
+      const filenameMatch = disposition.match(/filename="([^"]+)"/);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filenameMatch?.[1] || `${video.creator}.mp4`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : String(err);
+      setDownloadErrors((e) => ({ ...e, [id]: message }));
+      setTimeout(() => setDownloadErrors((e) => (e[id] === message ? omitKey(e, id) : e)), 8000);
+    } finally {
+      clearTimeout(slowTimer);
+      setDownloads((d) => omitKey(d, id));
+    }
   };
 
   const bulkDelete = async () => {
@@ -500,21 +563,30 @@ function VideosContent() {
                 <div className="p-3 space-y-2">
                   <div className="flex items-center justify-between">
                     <p className="text-sm font-semibold truncate">@{video.creator}</p>
-                    <button
-                      onClick={() => deleteVideo(id, video.creator)}
-                      className="shrink-0 ml-1.5 transition-colors"
-                    >
-                      <Trash2 className="h-3.5 w-3.5 text-muted-foreground/40 hover:text-red-400" />
-                    </button>
-                    <button
-                      onClick={() => toggleStar(id, video.starred)}
-                      className="shrink-0 ml-1.5 transition-colors"
-                    >
-                      <Star
-                        className={`h-4 w-4 ${video.starred ? "fill-yellow-400 text-yellow-400" : "text-muted-foreground/40 hover:text-yellow-400/60"}`}
-                      />
-                    </button>
+                    <div className="flex items-center shrink-0">
+                      <DownloadVideoButton status={downloads[id]} onClick={() => downloadVideo(video)} className="h-3.5 w-3.5" />
+                      <button
+                        onClick={() => deleteVideo(id, video.creator)}
+                        className="shrink-0 ml-1.5 transition-colors"
+                      >
+                        <Trash2 className="h-3.5 w-3.5 text-muted-foreground/40 hover:text-red-400" />
+                      </button>
+                      <button
+                        onClick={() => toggleStar(id, video.starred)}
+                        className="shrink-0 ml-1.5 transition-colors"
+                      >
+                        <Star
+                          className={`h-4 w-4 ${video.starred ? "fill-yellow-400 text-yellow-400" : "text-muted-foreground/40 hover:text-yellow-400/60"}`}
+                        />
+                      </button>
+                    </div>
                   </div>
+                  {downloads[id] === "slow" && (
+                    <p className="text-[10px] text-muted-foreground">Link expired — fetching a fresh one…</p>
+                  )}
+                  {downloadErrors[id] && (
+                    <p className="text-[10px] text-red-400">{downloadErrors[id]}</p>
+                  )}
 
                   <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
                     <LikesCount likes={video.likes} />
@@ -736,7 +808,14 @@ function VideosContent() {
                     >
                       <ExternalLink className="h-3.5 w-3.5" />
                     </a>
+                    <DownloadVideoButton status={downloads[modalVideo.id]} onClick={() => downloadVideo(modalVideo)} className="h-3.5 w-3.5" />
                   </div>
+                  {downloads[modalVideo.id] === "slow" && (
+                    <p className="mt-0.5 text-[11px] text-muted-foreground">Link expired — fetching a fresh one…</p>
+                  )}
+                  {downloadErrors[modalVideo.id] && (
+                    <p className="mt-0.5 text-[11px] text-red-400">{downloadErrors[modalVideo.id]}</p>
+                  )}
                   <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
                     <span className="inline-flex items-center gap-1">
                       <Play className="h-3 w-3 fill-current" />
